@@ -167,14 +167,16 @@ body {
    background-color: var(--blue-color);
 }
 
-.button-item {
+.button-item,
+.button-center {
     color: var(--title-text-color);
    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     font-family: inherit;
-    cursor: pointer;  
+    cursor: pointer; 
+    text-align: center; 
 }
 
 .button-item:hover,
